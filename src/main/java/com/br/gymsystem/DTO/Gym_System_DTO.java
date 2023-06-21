@@ -15,6 +15,8 @@ public class Gym_System_DTO {
 
     private Double gym_member_weight;
 
+    private Double gym_member_height;
+
     private LocalDateTime gym_member_registrationDate;
 
 }

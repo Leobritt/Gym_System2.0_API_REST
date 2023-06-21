@@ -31,7 +31,9 @@ public class Gym_System_Model implements Serializable {
     private Double gym_member_weight;
 
     @Column(nullable = false)
-    private LocalDateTime gym_member_registrationDate;
+    private Double gym_member_height;
 
+    @Column(nullable = false)
+    private LocalDateTime gym_member_registrationDate;
 
 }
